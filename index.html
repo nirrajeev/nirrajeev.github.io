@@ -50,12 +50,33 @@
             color: #555;
             margin-top: 4px;
         }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .profile {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center top;
+            border: 3px solid #1f4fd8;
+        }
+
     </style>
 </head>
 <body>
 
-<h1>Niranjan Rajeev</h1>
-<p class="tagline">B.Tech, IIT Delhi | Machine Learning Researcher</p>
+<div class="header">
+  <div>
+    <h1>Niranjan Rajeev</h1>
+    <p class="tagline">B.Tech, IIT Delhi | Machine Learning Researcher</p>
+  </div>
+  <img src="nirrajeev.jpg" class="profile" alt="Niranjan Rajeev">
+</div>
 
 <h2>About</h2>
 <p>
